@@ -1,0 +1,29 @@
+/*
+Theme Name: WP Bootstrap Starter Child
+Template: wp-bootstrap-starter
+*/
+
+$primary: #007bff;
+
+body {
+  line-height: 1.6;
+}
+
+@import "nav";
+@import "acf";
+@import "filter";
+
+
+
+.card-alt {
+  border-bottom: 2px solid $primary !important;
+}
+
+dt {
+  font-weight: 300;
+  color: #888;
+  // font-size: 0.75em;
+}
+dd {
+  font-weight: 600;
+}

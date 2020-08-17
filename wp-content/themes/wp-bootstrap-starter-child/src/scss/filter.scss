@@ -1,0 +1,22 @@
+.filter-label {
+  display: block;
+  font-weight: 300;
+  color: #888;
+  font-size: 75%;
+  margin-bottom: 0.5em;
+}
+
+.order-toggle-group {
+  margin-top: 1.75rem;
+}
+.order-toggle {
+  display: none;
+}
+.order-toggle + label {
+  display: none;
+}
+.order-toggle:checked {
+    &+label{
+      display: block;
+    }
+}
